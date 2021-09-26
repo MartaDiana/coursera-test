@@ -1,0 +1,28 @@
+/* title */
+
+.ayam { grid-area: ayam; text-align: right; background-color: rgb(221, 183, 206);}
+.daging { grid-area: daging; text-align: right; background-color: rgb(168, 212, 233);}
+.sushi { grid-area: sushi; text-align: right;background-color: rgb(219, 221, 183);}
+
+.title {
+text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+
+}
+
+.grid-container > div {
+border: 2px solid black;
+  font-size: 30px;
+}
+
+.kecil {
+  display: grid;
+  border: 1px solid black;
+  margin-left:400px;
+}
+
